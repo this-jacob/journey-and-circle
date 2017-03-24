@@ -1,0 +1,6 @@
+First Person Point and Click Adventure Game
+
+General idea is to make a zen like adventure game about gaining something abstract
+The main challenge is to overcome your mind
+
+Trippy puzzles is the goal
