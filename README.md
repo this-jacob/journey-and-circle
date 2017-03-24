@@ -2,5 +2,5 @@
 created by Jacob Tuttle
 initial commit 2017
 
-# network puzzle game
+# classic overworked point and click adventure game
 check for issues to contribute
