@@ -4,7 +4,7 @@ size = width, height = 720, 480
 
 #Start initializing the game
 pygame.init()
-screen = pygame.display.set_mode(size)
+screen = pygame.display.set_mode(size, pygame.FULLSCREEN)
 clock = pygame.time.Clock()
 
 def main():
@@ -18,6 +18,9 @@ def main():
         #preset event handler
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
+                pygame.quit()
+                exit()
+            if event.type == pygame.KEYDOWN and pygame.key.get_pressed()[pygame.K_ESCAPE]:
                 pygame.quit()
                 exit()
 
